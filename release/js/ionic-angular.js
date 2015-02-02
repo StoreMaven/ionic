@@ -10846,7 +10846,7 @@ function($timeout, $compile, $ionicSlideBoxDelegate, $ionicHistory) {
 .directive('ionSlide', function() {
   return {
     restrict: 'E',
-    require: '^ionSlideBox',
+//    require: '^ionSlideBox',
     compile: function(element, attr) {
       element.addClass('slider-slide');
       return function($scope, $element, $attr) {
